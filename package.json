@@ -1,0 +1,28 @@
+{
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "gulp build && webpack -p",
+		"start": "webpack-dev-server --hot"
+	},
+	"dependencies": {
+		"react": "latest",
+		"react-dom": "latest",
+		"react-router-dom": "latest"
+	},
+	"devDependencies": {
+		"babel-core": "latest",
+		"babel-loader": "latest",
+		"babel-plugin-transform-regenerator": "latest",
+		"babel-plugin-transform-runtime": "latest",
+		"babel-polyfill": "latest",
+		"babel-preset-env": "latest",
+		"babel-preset-react": "latest",
+		"babel-preset-stage-0": "latest",
+		"extract-text-webpack-plugin": "latest",
+		"gulp": "latest",
+		"html-webpack-plugin": "latest",
+		"webpack": "latest",
+		"webpack-dev-server": "latest"
+	}
+}
